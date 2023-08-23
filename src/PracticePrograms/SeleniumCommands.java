@@ -16,6 +16,8 @@ public class SeleniumCommands {
 						
 		//To launch the URL
 		driver.get("https://www.amazon.com");
+		
+		driver.get("https://www.flipkart.com/");
 	
 		//To get current page title
 		System.out.println("Title of the page is: "+driver.getTitle());
