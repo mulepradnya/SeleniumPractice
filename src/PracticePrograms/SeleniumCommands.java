@@ -18,6 +18,8 @@ public class SeleniumCommands {
 		driver.get("https://www.amazon.com");
 		
 		driver.get("https://www.flipkart.com/");
+		
+		driver.manage().window().maximize();
 	
 		//To get current page title
 		System.out.println("Title of the page is: "+driver.getTitle());
